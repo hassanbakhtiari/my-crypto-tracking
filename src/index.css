@@ -1,11 +1,14 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/** @format */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-body{
-    background-color: blueviolet;
+body {
+	background-color: rgb(238, 228, 244);
 }
-.wrapper{
-    background-color: brown;
+.wrapper {
+	background-color: rgb(99, 83, 83);
+	min-height: calc(100vh - 55.6px - 40px);
 }
