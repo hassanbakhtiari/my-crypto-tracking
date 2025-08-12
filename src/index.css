@@ -12,3 +12,7 @@ body {
 	/* background-color: rgb(99, 83, 83); */
 	min-height: calc(100vh - 55.6px - 40px);
 }
+.about-img {
+	width: 300px;
+	height: 300px;
+}
