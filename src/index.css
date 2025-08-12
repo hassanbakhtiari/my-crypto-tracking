@@ -9,6 +9,6 @@ body {
 	background-color: rgb(238, 228, 244);
 }
 .wrapper {
-	background-color: rgb(99, 83, 83);
+	/* background-color: rgb(99, 83, 83); */
 	min-height: calc(100vh - 55.6px - 40px);
 }

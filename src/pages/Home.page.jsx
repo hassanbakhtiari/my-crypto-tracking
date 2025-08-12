@@ -1,6 +1,7 @@
 /** @format */
 
 import React from 'react';
+import Spinner from '../components/ui/Spinner.component.jsx';
 
 const HomePage = () => {
 	return (
