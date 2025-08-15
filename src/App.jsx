@@ -7,6 +7,7 @@ import HomePage from './pages/Home.page';
 import FAQPage from './pages/FAQ.page';
 import AboutUsPage from './pages/AboutUs.page';
 import ContactUsPage from './pages/ContactUs.page';
+import CoinPage from './pages/Coin.page';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<div className="wrapper">
 				<Routes>
 					<Route path="/" element={<HomePage />} />
+					<Route path="/coin/:id" element={<CoinPage />} />
 					<Route path="/faq" element={<FAQPage />} />
 					<Route path="/aboutus" element={<AboutUsPage />} />
 					<Route path="/contactus" element={<ContactUsPage />} />
